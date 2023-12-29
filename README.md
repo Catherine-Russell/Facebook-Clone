@@ -19,12 +19,12 @@ Acebook is a collaborative project that aims to recreate the essence of Facebook
 
 To get started with Acebook:
 
-1. Clone the repository: `git clone https://github.com/your-username/acebook.git`
-2. Navigate to the project directory: `cd acebook`
-3. Install dependencies for both the server and client: `npm install` in the root directory and the `client` directory.
+1. Clone the repository: `git clone https://github.com/xAmiBa/acebook.git`
+2. Navigate to the project directory
+3. Install dependencies for both the server and client: `npm install` in the `frontend` directory and the `api` directory.
 4. Set the JWT_SECRET environment variable: `export JWT_SECRET="your-secret-key"`
-5. Start the server: `npm start` in the root directory.
-6. Start the client: `npm start` in the `client` directory.
+5. Start the server: `npm start` in the `frontend` directory.
+6. Start the client: `npm start` in the `api` directory.
 
 ## Features
 
@@ -64,17 +64,6 @@ The project includes testing with Cypress and Jest. The group worked collaborati
 1. After starting both the server and client, navigate to `http://localhost:3000` in your browser.
 2. Sign up for an account or log in if you already have one.
 3. Explore the main feed, create posts, and interact with other users.
-
-## Contributing
-
-If you want to contribute to Acebook:
-
-1. Fork the repository: Click the "Fork" button on the GitHub repository.
-2. Clone your fork: `git clone https://github.com/your-username/acebook.git`
-3. Create a new branch: `git checkout -b feature-name`
-4. Make your changes and commit them: `git commit -m "Add new feature"`
-5. Push to the branch: `git push origin feature-name`
-6. Submit a pull request on GitHub.
 
 ## License
 
