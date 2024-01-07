@@ -1,5 +1,7 @@
 # Acebook - Facebook Clone
 
+![Acebook Screenshot](/public/AcebookScreenshot.png)
+
 ## Table of Contents
 - [Project Description](#project-description)
 - [Demo](#demo)
@@ -10,7 +12,7 @@
 ## Project Description
 Acebook was a 2-week group project that aimed to replicate some of the social media functionalities of Facebook. We inherited a legacy MERN codebase with only simple log in, sign up and post index features. We worked together to understand the existing code and used Agile practices to introduce features such as creating posts, making comments, likes and avatars.
 
-**Tech Stack**
+Tech Used:
 - MongoDB
 - Express.js
 - React.js
@@ -22,7 +24,6 @@ Acebook was a 2-week group project that aimed to replicate some of the social me
 
 
 ## Features
-
 - User authentication and authorization with JWT tokens.
 - Users can create and view posts on the main feed.
 - Users can like and comment on posts.
