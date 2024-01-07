@@ -6,6 +6,7 @@
 - [Project Description](#project-description)
 - [Demo](#demo)
 - [Features](#features)
+- [How it works](how-it-works)
 - [How to Run the Application](#how-to-run-the-application)
 - [Contributors](#contributors)
 
@@ -31,24 +32,18 @@ Tech Used:
 - Users can view other people's posts on their profile.
 - Users can upload pictures and gifs to their posts to make them more interesting!
 
-**<ins>Server</ins>**
-
-The server, built using Node.js and Express, handles authentication, posts, comments, avatars, and user data.
+## How it works
+The **server**, built using Node.js and Express, handles authentication, posts, comments, avatars, and user data.
 - **Express**: Web application framework for handling HTTP requests.
 - **JWT**: JSON Web Token for user authentication.
 - **Multer**: Middleware for handling file uploads.
 
-
-**<ins>Client</ins>**
-
-The client, built using React, offers a user interface for interacting with Acebook.
+The **client**, built using React, offers a user interface for interacting with Acebook.
 - **React**: JavaScript library for building user interfaces.
 - **React Router**: Library for handling navigation and routing.
 - **CSS Modules**: Modular CSS styling for components.
 
-**<ins>Testing</ins>**
-
-The project includes testing with Cypress and Jest. As we were building on a legacy codebase, we introduced testing in order to protect the stability and reliability of the existing functionality as we made changes.
+The project includes **testing** with Cypress and Jest. As we were building on a legacy codebase, we introduced testing in order to protect the stability and reliability of the existing functionality as we made changes.
 - **Cypress**: End-to-end testing framework for web applications.
 - **Jest**: JavaScript testing framework for unit and integration testing.
 
