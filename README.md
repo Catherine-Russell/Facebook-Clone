@@ -1,42 +1,36 @@
 # Acebook - Facebook Clone
 
-Acebook is a collaborative project that aims to recreate the essence of Facebook in a simplified manner. Developed by a group of contributors, Acebook is built using Node.js and React, with a primary focus on providing a platform for user interaction through posts, comments, and avatars.
-
-![Acebook Demo](/public/acebook_demo.gif)
-
-
 ## Table of Contents
-- [Getting Started](#getting-started)
+- [Project Description](#project-description)
+- [Demo](#demo)
 - [Features](#features)
-- [Server](#server)
-- [Client](#client)
-- [Testing](#testing)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+- [How to Run the Application](#getting-started-with-acebook)
+- [Contributors](#contributors)
 
-## Getting Started
+## Project Description
+Acebook was a 2-week group project that aimed to replicate some of the social media functionalities of Facebook. We inherited a legacy MERN codebase with only simple log in, sign up and post index features. We worked together to understand the existing code and used Agile practices to introduce features such as creating posts, making comments, likes and avatars.
 
-To get started with Acebook:
+**Tech Stack**
+- MongoDB
+- Express.js
+- React.js
+- Node.js
+- Testing: Cypress, Jest
 
-1. Clone the repository: `git clone https://github.com/xAmiBa/acebook.git`
-2. Navigate to the project directory
-3. Install dependencies for both the server and client: `npm install` in the `frontend` directory and the `api` directory.
-4. Set the JWT_SECRET environment variable: `export JWT_SECRET="your-secret-key"`
-5. Start the server: `npm start` in the `frontend` directory.
-6. Start the client: `npm start` in the `api` directory.
+## Demo
+![Acebook Demo](/public/AcebookDemo.gif)
+
 
 ## Features
 
-Acebook provides the following features:
-
 - User authentication and authorization with JWT tokens.
-- Creating and viewing posts on the main feed.
-- Liking and commenting on posts.
-- Uploading avatars for user profiles.
-- Viewing user profiles and their posts.
+- Users can create and view posts on the main feed.
+- Users can like and comment on posts.
+- Users can choose from a range of avatars for their user profile.
+- Users can view other people's posts on their profile.
+- Users can upload pictures and gifs to their posts to make them more interesting!
 
-## Server
+**Server**
 
 The server, built using Node.js and Express, handles authentication, posts, comments, avatars, and user data.
 
@@ -44,7 +38,7 @@ The server, built using Node.js and Express, handles authentication, posts, comm
 - **JWT**: JSON Web Token for user authentication.
 - **Multer**: Middleware for handling file uploads.
 
-## Client
+**Client**
 
 The client, built using React, offers a user interface for interacting with Acebook.
 
@@ -52,18 +46,31 @@ The client, built using React, offers a user interface for interacting with Aceb
 - **React Router**: Library for handling navigation and routing.
 - **CSS Modules**: Modular CSS styling for components.
 
-## Testing
+**Testing**
 
-The project includes testing with Cypress and Jest. The group worked collaboratively on a legacy codebase with only authentication, and testing was introduced to ensure the stability and reliability of the existing functionality.
+The project includes testing with Cypress and Jest. As we were building on a legacy codebase, we introduced testing in order to protect the stability and reliability of the existing functionality as we made changes.
 
 - **Cypress**: End-to-end testing framework for web applications.
 - **Jest**: JavaScript testing framework for unit and integration testing.
 
-## Usage
+## How to Run the Application
 
-1. After starting both the server and client, navigate to `http://localhost:3000` in your browser.
-2. Sign up for an account or log in if you already have one.
-3. Explore the main feed, create posts, and interact with other users.
+1. Clone the repository: `git clone https://github.com/Catherine-Russell/Facebook-Clone.git`
+2. Navigate to the project directory
+3. Install dependencies for both the server and client: `npm install` in the `frontend` directory and the `api` directory.
+4. Set the JWT_SECRET environment variable: `export JWT_SECRET="your-secret-key"`
+5. Start the server: `npm start` in the `frontend` directory.
+6. Start the client: `npm start` in the `api` directory.
+
+**In the browser**
+Navigate to `http://localhost:3000` in your browser and you should see the Acebook homepage.
+From here, sign up for an account, create posts, check out other people's posts and interact with other users.
+
+## Contributors
+- [Amina Ba](https://github.com/xAmiBa)
+- [Rachel Roberts](https://github.com/Rachel853)
+- [Daniel Kruszewski](https://github.com/DANKRUSZ)
+- [Sudhansh Kumar](skrill500)
 
 ## License
 
